@@ -8,6 +8,25 @@
       <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
 </head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 1px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
+
 <body>
 <a href="#footer">Footer</a>
   <!-- Hello there -->
@@ -15,6 +34,19 @@
   <h1>Sella Studio</h1>
 </header>
 </header>
+<section>
+  <div class="row">
+    <div class="column">
+      <img src="images\DSC_05762.jpg" alt="Floral Ish Tiwa Denim Patch" style="width:100%"/>
+    </div>
+    <div class="column">
+      <img src="images\DSC_05852.jpg" alt="Weaving Design Studs" style="width:100%"/>
+    </div>
+    <div class="column">
+      <img src="images\DSC_05662.jpg" alt="Kilila Butterfly" style="width:100%"/>
+    </div>
+  </div>
+</section>
 <section>
   <h2>About me</h2>
 <p>My name is Sarah Jeffrey, I am from the Squamish and Gitxsan Nations. I come from a long line of artists and carvers. I have always been surrounded by artists. I have been an artist for as long as I can remember. Art makes me happy and brings me peace.
@@ -48,19 +80,6 @@
     <li>Cross Stitching</li>
 <a href="https://en.wikipedia.org/wiki/Salish_Wool_Dog" target="_blank"> Salish Wooly Dog</a>
   </ul>
-</section>
-<section>
-  <div class="row">
-    <div class="column">
-      <img src="images\DSC_05762.jpg" alt="Floral Ish Tiwa Denim Patch" style="width:33%"/>
-    </div>
-    <div class="column">
-      <img src="images\DSC_05852.jpg" alt="Weaving Design Studs" style="width:33%"/>
-    </div>
-    <div class="column">
-      <img src="images\DSC_05662.jpg" alt="Kilila Butterfly" style="width:33%"/>
-    </div>
-  </div>
 </section>
 <footer id="footer">
   <p>Website made by Sarah Jeffrey.</p>
