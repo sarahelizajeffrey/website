@@ -1,26 +1,72 @@
+/* Website Styles */
+
+* {
+  font-size:100%
+}
+
 body {
   background-color: Snow;
   color: Black;
   font-family: 'Montserrat', sans-serif;
+  font-size:14px;
 }
 
 h1 {
   color: Maroon;
   text-align: center;
+  font-size: 36px;
+  font-weight: bold;
 }
 
 h2 {
   color: Maroon;
+  font-size: 24px;
+  font-weight: normal;
+  font-style: italic;
 }
+
+p {
+  line-height:2;
+}
+
 
 h3 {
   color: Maroon;
+  font-size: 24px;
+  font-weight: normal;
+  font-style: italic;
 }
 
 h4 {
   color: Maroon;
+  font-size: 24px;
+  font-weight: normal;
+  font-style: italic;
+}
+
+section li{
+  color: red;
+  text-decoration: none;
+}
+
+a:link,
+a:focus,
+a:active {
+  color: red;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration:underline;
+}
+
+a:visited {
+  color: grey;
 }
 
 h5 {
   color: Maroon;
+  font-size: 24px;
+  font-weight: normal;
+  font-style: italic;
 }
