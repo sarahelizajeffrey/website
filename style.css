@@ -38,16 +38,18 @@ header {
   float: left;
   color: Maroon;
   text-align: center;
-  padding: 14px 16px;
+  padding: 10px;
+  margin: 0;
   text-decoration: none;
   font-size: 17px;
-  background-position: center;
+
+  display: inline;
 }
 
 .topnav a:hover {
   background-color: Snow;
   color: Maroon;
-
+  display: inline;
 }
 
 .topnav a.active {
