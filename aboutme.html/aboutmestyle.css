@@ -1,0 +1,15 @@
+h1 {
+  color: Maroon;
+  text-align: center;
+  font-size: 52px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+body {
+  background-image: url(images/white-waves.png);
+  /* background-color: Snow; */
+  color: Black;
+  font-family: 'Montserrat', sans-serif;
+  font-size:14px;
+}
