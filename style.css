@@ -18,12 +18,12 @@ header {
   border-bottom: 5px solid Maroon;
 }
 
-.banner {
+/* .banner {
   height: 350px;
   background-image: url(images/banner.jpg);
   background-size: cover;
   background-position: center;
-}
+} */
 
 /* navigation */
 .topnav {
@@ -41,6 +41,7 @@ header {
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+  background-position: center;
 }
 
 .topnav a:hover {
@@ -119,10 +120,10 @@ p {
   margin-left: 0;
 }
 
-.container {
+/* .container {
   max-width: 1000px;
   margin: 0 auto;
-}
+} */
 
 h3 {
   color: Maroon;
@@ -142,7 +143,7 @@ h4 {
 }
 
 ul, ol {
-  color: Maroon;
+  color: black;
   text-decoration: none;
   margin: 15px 0;
 }
@@ -150,7 +151,7 @@ ul, ol {
 a:link,
 a:focus,
 a:active {
-  color: red;
+  color: maroon;
   text-decoration: none;
 }
 
