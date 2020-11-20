@@ -13,3 +13,34 @@ body {
   font-family: 'Montserrat', sans-serif;
   font-size:14px;
 }
+
+/* navigation */
+.topnav {
+  overflow: hidden;
+  background-color: Snow;
+  background-position: center;
+  text-align: center;
+  display: inline-block;
+}
+
+.topnav a {
+  float: left;
+  color: Maroon;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  background-position: center;
+}
+
+.topnav a:hover {
+  background-color: Snow;
+  color: Maroon;
+
+}
+
+.topnav a.active {
+  background-color: Snow;
+  color: Maroon;
+}
+/* end navigation */
